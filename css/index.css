@@ -1,36 +1,31 @@
 .header{
-    text-align: center;
-    background-color: #1a1a1a;
-    color:#ffff;
-    
-  background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-}
-
-
-.gallery {
-    margin-top: 30px; /* Add a top margin to avoid content overlay */
-  }
-
-
-.h2{
-    font-family: 'Bubblegum Sans', cursive;
+text-align: center;
+background-color: #1a1a1a;
+color:#ffff;
+background-color: #333;
+position: -webkit-sticky;
+position: fixed; 
+padding: 10px;
+top: 0; 
+width: 100%; 
+margin: auto;
 }
 
 .city-photo{
     max-width:100%;
+   
 }
 
 .gallery{
+   
+    margin-top: 30px;
     display: grid;
     grid-template-columns: 1fr;
     }
 
 body{
   background: #494848;
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'Bubblegum Sans', cursive;
 }
 
@@ -47,7 +42,7 @@ body{
     max-width: 100%;
   }
 
-  /*
+/*   
 @media screen and (max-width: 640px){
   .container{
     display: block;
@@ -57,13 +52,13 @@ body{
 
 @media screen and (min-width: 900px){
   .container{
-    width: 33.33333%;
+    width: 100%;
   }
-}
+} */
 
-*/
 
-.container .title{
+
+.container {
   color: #1a1a1a;
   text-align: center;
   margin-bottom: 10px;
@@ -154,3 +149,8 @@ body{
   }
 
   */
+
+  .footer{
+      position:-webkit-sticky;
+      position: sticky;
+  }
